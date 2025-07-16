@@ -1,16 +1,23 @@
-# flutter_train_app
+# flutter_train_app 기차예매앱
 
-A new Flutter project.
+- 앱의 전체적인 구성요소와 배치를 확인
+- 진행되어야 할 전체적인 연결 요소 확인
+- 내가 직접 구현 가능한 것과 ai의 도움받을 요소 정리
+  -  직접 가능한 요소 : sizedbox, colors, text 등 기본 요소및 배치등 시야적인 부분
+  -  도움이 필요했던 요소 : 출발역및 도착역 클릭시 역 목록 페이지로 연결및 이동,좌석 선택 버튼 클릭시 좌석페이지로 이
+  -  도움을 조금 받았지만 직접하려했던 것 : 좌석 클릭시 색 변환
+  -  구현하지 못한 부분 : 좌석 클릭시 팝업창, 좌석선택 페이지에서 1~20의 숫자 배열 위치 변경
+  -  구현하지 못한 이유 : 생각보다 시간이 너무 많이 지체 되었다. ai 도움이 필요한 영역이기도 했다.
 
-## Getting Started
+- 앱을 구성하는데 내게 ai 도움이 필요했던 함수
+  - createState()
+  - State<T>
+  - inkWell
+  - itemBuider
+  - margin
+  - ElevatedButton.styleFrom()
+  - Navigator.push, pop , PageRoute
+  - onTap, onPressed > 재밋었다.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##결론
+- ai를 이용하지 않으려 헀지만 아직은 익숙치 않다. 기본적인 용어들이 바로바로 생각나지 않는것이 큰 것 같다. 계속해서 ~ 하는 함수가 뭐지? 라는 질문을 많이하게 되었다. 시간이 크게 안들줄 알았던 시야적인 부분인 것도 정렬방식을 쓸때 시간이 걸렸다. 예를들어 MainAxisAlignment, EdgeInsets.all()같이 내가 원하는 것을 지정할때 함수를 찾는데 걸렸다. 이런 어플을 만들수록 연결되는 데이터를 저장하고 어떻게 관리하는지가 궁금하기도 하다. 
